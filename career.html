@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Career | All Safe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preload" href="assets/css/fonts/AvertaCY-Light.woff2" as="font" crossorigin>
+    <link rel="preload" href="assets/css/fonts/AvertaCY-Regular.woff2" as="font" crossorigin>
+    <link rel="preload" href="assets/css/fonts/AvertaCY-Semibold.woff2" as="font" crossorigin>
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> -->
+</head>
+
+<body>
+    <div class="cb-loader cb-loader_overlay -visible"></div>
+    <nav class="cb-menu">
+        <div class="cb-menu-logo"><a href="index.html" aria-label="All Safe"><svg class="cb-svgsprite -logo">
+                    <use xlink:href="assets/img/logo-black.png"></use>
+                </svg></a></div>
+        <div class="cb-menu-toggle"><button class="cb-btn cb-btn_menu" aria-label="menu" data-cursor="-menu"
+                data-cursor-stick=".cb-btn_menu-box"><span class="cb-btn_menu-title"
+                    style="visibility:hidden;">menu</span><span class="cb-btn_menu-box"
+                    data-magnetic="{&quot;x&quot;:&quot;0.08&quot;,&quot;y&quot;:&quot;0.08&quot;}"><span></span><span></span></span></button>
+        </div>
+        <div class="cb-menu-box">
+            <div class="cb-menu-backdrop"></div>
+            <div class="cb-menu-content">
+                <div class="cb-menu-body">
+                    <div class="cb-menu-container">
+                        <div class="cb-menu-grid">
+                            <div class="cb-menu-grid-col -left">
+                                <div class="cb-menu-title">Social</div>
+                                <div class="cb-menu-social" data-cursor="-opaque"><a class="cb-menu-social-item"
+                                        href="http://www.linkedin.com/company/cuberto" target="_blank" rel="noopener"
+                                        data-magnetic><em><span data-text="LinkedIn">LinkedIn</span></em></a><a
+                                        class="cb-menu-social-item" href="http://www.behance.net/cuberto"
+                                        target="_blank" rel="noopener" data-magnetic><em><span
+                                                data-text="Behance">Behance</span></em></a><a
+                                        class="cb-menu-social-item" href="http://dribbble.com/cuberto" target="_blank"
+                                        rel="noopener" data-magnetic><em><span
+                                                data-text="Dribbble">Dribbble</span></em></a><a
+                                        class="cb-menu-social-item" href="http://www.instagram.com/cubertodesign/"
+                                        target="_blank" rel="noopener" data-magnetic><em><span
+                                                data-text="Instagram">Instagram</span></em></a><a
+                                        class="cb-menu-social-item"
+                                        href="http://www.youtube.com/channel/UCzestFrXpwSGCfcbO2pObwQ" target="_blank"
+                                        rel="noopener" data-magnetic><em><span
+                                                data-text="YouTube">YouTube</span></em></a><a
+                                        class="cb-menu-social-item" href="http://twitter.com/cuberto" target="_blank"
+                                        rel="noopener" data-magnetic><em><span
+                                                data-text="Twitter">Twitter</span></em></a><a
+                                        class="cb-menu-social-item" href="http://github.com/Cuberto" target="_blank"
+                                        rel="noopener" data-magnetic><em><span data-text="GitHub">GitHub</span></em></a>
+                                </div>
+                            </div>
+                            <div class="cb-menu-grid-col -right">
+                                <div class="cb-menu-title">Menu</div>
+                                <div class="cb-menu-nav" role="navigation" data-cursor="-opaque">
+                                    <div class="cb-menu-nav-item"><a href="hello/index.html"
+                                            data-magnetic><em><span data-text="Home">Home</span></em></a>
+                                    </div>
+                                    <div class="cb-menu-nav-item"><a href="index.html"
+                                            data-magnetic><em><span data-text="What we do">What we do</span></em></a>
+                                    </div>
+                                    <div class="cb-menu-nav-item"><a href="projects.html" data-magnetic><em><span
+                                                    data-text="Projects">Projects</span></em></a></div>
+                                    <div class="cb-menu-nav-item"><a href="about.html" data-magnetic><em><span
+                                                    data-text="Company">Company</span></em></a></div>
+                                    <div class="cb-menu-nav-item"><a href="tutorials.html" data-magnetic><em><span
+                                                    data-text="Tutorials & Courses">Tutorials & Courses</span></em></a></div>
+                                    <div class="cb-menu-nav-item -active"><a href="javascript::void(0)" data-magnetic><em><span
+                                                    data-text="Contacts">Contacts</span></em></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cb-menu-footer">
+                    <div class="cb-menu-container">
+                        <div class="cb-menu-title -sm">Get in touch</div>
+                        <div class="cb-menu-mail"><a href="mailto:info@allsafe.com"><span>info@allsafe.com</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cb-menu-contact"><a class="cb-btn cb-btn_contact" href="contacts.html"
+                data-cursor="-exclusion" aria-label="Get in touch"><svg class="cb-svgsprite -chat">
+                    <use xlink:href="assets/img/sprites/svgsprites.svg?2#chat"></use>
+                </svg></a></div>
+    </nav>
+    <!-- 
+        خد بالك بردو ان ال data-controller بتتغير علي حسب الصفحه ها
+     -->
+    <div class="cb-view" data-controller="contactsController" id="view-main">
+        <div class="cb-layout" role="main">
+            <div class="cb-navbar">
+                <div class="cb-navbar-strip">
+                    <div class="cb-navbar-grid">
+                        <div class="cb-navbar-grid-col -left">
+                            <div class="cb-navbar-logo">
+                                <a href="index.html" aria-label="All Safe">
+                                    <img src="assets/img/logo-black.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cb-navbar-grid-col -right">
+                            <div class="cb-navbar-toggle"><button class="cb-btn cb-btn_menu" aria-label="menu"><span
+                                        class="cb-btn_menu-title">menu</span><span class="cb-btn_menu-box"
+                                        style="visibility:hidden"><span></span><span></span></span></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact -->
+            <header class="cb-request">
+                <div class="cb-request-content">
+                    <div class="cb-request-container">
+                        <div class="cb-request-header">
+                            <h1>Hey! Be one of<br> our community <img src='assets/img/emoji/lg/1F44B.png'
+                                    srcset='/assets/img/emoji/lg/1F44B@2x.png 2x' alt></h1>
+                        </div>
+                        <div class="cb-request-form">
+                            <form class="cb-form">
+                                <div class="cb-form-group">
+                                    <div class="cb-form-label -smooth">Get your job now in All Safe...</div>
+                                    <div class="cb-checkbox-group">
+                                        <div class="cb-checkbox cb-checkbox_rounded" data-magnetic><label><input
+                                                    type="radio" name="service[]" value="front-end" disabled readonly><span
+                                                    class="cb-checkbox_rounded-box"><span
+                                                        class="cb-checkbox_rounded-title"><span
+                                                            data-text="Front-end Developer">Front-end
+                                                            Developer</span></span><span
+                                                        class="cb-checkbox_rounded-ripple"><span></span></span></span></label>
+                                        </div>
+                                        <div class="cb-checkbox cb-checkbox_rounded" data-magnetic><label><input
+                                                    type="radio" name="service[]" value="back-end" disabled readonly><span
+                                                    class="cb-checkbox_rounded-box"><span
+                                                        class="cb-checkbox_rounded-title"><span
+                                                            data-text="Back-end Developer">Back-end
+                                                            Developer</span></span><span
+                                                        class="cb-checkbox_rounded-ripple"><span></span></span></span></label>
+                                        </div>
+                                        <div class="cb-checkbox cb-checkbox_rounded" data-magnetic><label><input
+                                                    type="radio" name="service[]" value="design" disabled readonly><span
+                                                    class="cb-checkbox_rounded-box"><span
+                                                        class="cb-checkbox_rounded-title"><span
+                                                            data-text="UX/UI design">UX/UI design</span></span><span
+                                                        class="cb-checkbox_rounded-ripple"><span></span></span></span></label>
+                                        </div>
+                                        <div class="cb-checkbox cb-checkbox_rounded" data-magnetic><label><input
+                                                    type="radio" name="service[]" value="flutter" disabled readonly><span
+                                                    class="cb-checkbox_rounded-box"><span
+                                                        class="cb-checkbox_rounded-title"><span
+                                                            data-text="Flutter Developer">Flutter Developer</span></span><span
+                                                        class="cb-checkbox_rounded-ripple"><span></span></span></span></label>
+                                        </div>
+                                        <div class="cb-checkbox cb-checkbox_rounded" data-magnetic><label><input
+                                                    type="radio" name="service[]" value="e-markter"><span
+                                                    class="cb-checkbox_rounded-box"><span
+                                                        class="cb-checkbox_rounded-title"><span
+                                                            data-text="E-Markter (Good at SEO)">E-Markter 
+                                                            (Good at SEO)</span></span><span
+                                                        class="cb-checkbox_rounded-ripple"><span></span></span></span></label>
+                                        </div>
+                                        <div class="cb-checkbox cb-checkbox_rounded" data-magnetic><label><input
+                                                    type="radio" name="service[]" value="sales"><span
+                                                    class="cb-checkbox_rounded-box"><span
+                                                        class="cb-checkbox_rounded-title"><span
+                                                            data-text="Sales">Sales
+                                                            </span></span><span
+                                                        class="cb-checkbox_rounded-ripple"><span></span></span></span></label>
+                                        </div>
+                                        <div class="cb-checkbox cb-checkbox_rounded" data-magnetic><label><input
+                                                    type="radio" name="service[]" value="secretarial"><span
+                                                    class="cb-checkbox_rounded-box"><span
+                                                        class="cb-checkbox_rounded-title"><span
+                                                            data-text="Secretarial">Secretarial
+                                                            </span></span><span
+                                                        class="cb-checkbox_rounded-ripple"><span></span></span></span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cb-form-group">
+                                    <div class="cb-input cb-input_light"
+                                        data-validity-msg='{"valueMissing":"Please fill your name"}'>
+                                        <div class="cb-input_light-box"><input type="text" name="name"
+                                                placeholder="Your name" required aria-label="Your name">
+                                            <div class="cb-input_light-line"></div>
+                                        </div>
+                                        <div class="cb-input_light-message"></div>
+                                    </div>
+                                </div>
+                                <div class="cb-form-group">
+                                    <div class="cb-input cb-input_light"
+                                        data-validity-msg='{"valueMissing":"Please fill your Phone"}'>
+                                        <div class="cb-input_light-box"><input type="text" name="phone"
+                                                placeholder="Your Phone" required aria-label="Your Phone">
+                                            <div class="cb-input_light-line"></div>
+                                        </div>
+                                        <div class="cb-input_light-message"></div>
+                                    </div>
+                                </div>
+                                <div class="cb-form-group">
+                                    <div class="cb-input cb-input_light"
+                                        data-validity-msg='{"valueMissing":"Please fill your email address","typeMismatch":"That email address looks a bit weird"}'>
+                                        <div class="cb-input_light-box"><input type="email" name="email"
+                                                placeholder="Your email" required aria-label="Your email">
+                                            <div class="cb-input_light-line"></div>
+                                        </div>
+                                        <div class="cb-input_light-message"></div>
+                                    </div>
+                                </div>
+                                <div class="cb-form-group">
+                                    <div class="cb-input cb-input_light">
+                                        <div class="cb-input_light-box"><textarea name="mess"
+                                                placeholder="Years Of Experince"
+                                                aria-label="Years Of Experince"></textarea>
+                                            <div class="cb-input_light-line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cb-form-group">
+                                    <div class="cb-input cb-input_file"
+                                        data-validity="{&quot;size&quot;:26214400,&quot;limit&quot;:10}"
+                                        data-validity-msg='{"size":"Size limit has been exceeded (25 mb)","limit":"Attach up to 10 files"}'>
+                                        <input type="file" name="attachments" multiple>
+                                        <button class="cb-input_file-btn" type="button">
+                                            <svg class="cb-svgsprite -attachment">
+                                                <use xlink:href="assets/img/sprites/svgsprites.svg?2#attachment"></use>
+                                            </svg>
+                                            <span>Upload your CV</span>
+                                        </button>
+                                        <div class="cb-input_file-items"></div>
+                                        <div class="cb-input_file-message"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="cb-form-submit"><button class="cb-btn cb-btn_send" type="submit"
+                                        data-magnetic data-cursor="-opaque"><span data-text="Send request">Send
+                                            request</span></button></div>
+                                <div class="cb-form-terms">This site is protected by reCAPTCHA and the Google <a
+                                        href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>
+                                    and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a>
+                                    apply.</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Footer -->
+            <section class="cb-outro">
+                <div class="cb-outro-content" data-cursor="-inverse">
+                    <div class="cb-outro-body">
+                        <div class="cb-outro-container">
+                            <div class="cb-outro-header">
+                                <h2>Have an idea?</h2><a href="contacts.html">Tell us about it</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cb-outro-footer">
+                        <div class="cb-outro-container">
+                            <div class="cb-outro-grid">
+                                <div class="cb-outro-grid-col -left">
+                                    <div class="cb-outro-mail"><a
+                                            href="mailto:info@allsafe.com"><em><span>info@allsafe.com</span></em></a>
+                                    </div>
+                                    <div class="cb-outro-address">
+                                        <address>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </address>
+                                    </div>
+                                    <div class="cb-outro-link"><a class="cb-outro-link-item"
+                                            href="privacy/index.html">Privacy Policy</a></div>
+                                </div>
+                                <div class="cb-outro-grid-col -right">
+                                    <div class="cb-outro-social">
+                                        <div class="cb-outro-social-row"><a class="cb-outro-social-item"
+                                                href="javscript::void(0)" target="_blank"
+                                                rel="noopener" aria-label="LinkedIn"><span
+                                                    class="cb-outro-social-item-title"><span
+                                                        data-text="LinkedIn">LinkedIn</span></span><svg
+                                                    class="cb-svgsprite -linkedin">
+                                                    <use xlink:href="assets/img/sprites/svgsprites.svg?2#linkedin">
+                                                    </use>
+                                                </svg></a><a class="cb-outro-social-item -patreon"
+                                                href="javscript::void(0)" target="_blank" rel="noopener"
+                                                aria-label="Twitter"><span class="cb-outro-social-item-title"><span
+                                                        data-text="Twitter">Twitter</span></span><svg
+                                                    class="cb-svgsprite -twitter">
+                                                    <use xlink:href="assets/img/sprites/svgsprites.svg?2#twitter">
+                                                    </use>
+                                                </svg></a><a class="cb-outro-social-item -behance"
+                                                href="javscript::void(0)" target="_blank" rel="noopener"
+                                                aria-label="Behance"><span class="cb-outro-social-item-title"><span
+                                                        data-text="Behance">Behance</span></span><svg
+                                                    class="cb-svgsprite -behance">
+                                                    <use xlink:href="assets/img/sprites/svgsprites.svg?2#behance">
+                                                    </use>
+                                                </svg></a></div>
+                                        <div class="cb-outro-social-row"><a class="cb-outro-social-item -dribble"
+                                                href="javscript::void(0)" target="_blank" rel="noopener"
+                                                aria-label="Dribbble"><span class="cb-outro-social-item-title"><span
+                                                        data-text="Dribbble">Dribbble</span></span><svg
+                                                    class="cb-svgsprite -dribbble">
+                                                    <use xlink:href="assets/img/sprites/svgsprites.svg?2#dribbble">
+                                                    </use>
+                                                </svg></a><a class="cb-outro-social-item -instagram"
+                                                href="javscript::void(0)" target="_blank"
+                                                rel="noopener" aria-label="Instagram"><span
+                                                    class="cb-outro-social-item-title"><span
+                                                        data-text="Instagram">Instagram</span></span><svg
+                                                    class="cb-svgsprite -instagram">
+                                                    <use xlink:href="assets/img/sprites/svgsprites.svg?2#instagram">
+                                                    </use>
+                                                </svg></a><a class="cb-outro-social-item -youtube"
+                                                href="javscript::void(0)"
+                                                target="_blank" rel="noopener" aria-label="YouTube"><span
+                                                    class="cb-outro-social-item-title"><span
+                                                        data-text="YouTube">YouTube</span></span><svg
+                                                    class="cb-svgsprite -youtube">
+                                                    <use xlink:href="assets/img/sprites/svgsprites.svg?2#youtube">
+                                                    </use>
+                                                </svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="assets/js/bundle.js" defer></script>
+    <!--  -->
+    <script src="assets/js/new.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css">
+    </noscript>
+</body>
+
+</html>
